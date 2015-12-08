@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DEAC791C16C86C00B7F14F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEAC781C16C86C00B7F14F /* AppDelegate.swift */; };
+		17DEAC7B1C16C86C00B7F14F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEAC7A1C16C86C00B7F14F /* ViewController.swift */; };
+		17DEAC7E1C16C86C00B7F14F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DEAC7C1C16C86C00B7F14F /* Main.storyboard */; };
+		17DEAC801C16C86C00B7F14F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DEAC7F1C16C86C00B7F14F /* Assets.xcassets */; };
+		17DEAC831C16C86C00B7F14F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DEAC811C16C86C00B7F14F /* LaunchScreen.storyboard */; };
+		17DEAC8E1C16C86C00B7F14F /* ToiletsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEAC8D1C16C86C00B7F14F /* ToiletsAppTests.swift */; };
+		17DEAC991C16C86C00B7F14F /* ToiletsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEAC981C16C86C00B7F14F /* ToiletsAppUITests.swift */; };
+		17DEACA71C16CB1600B7F14F /* Toilets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEACA61C16CB1600B7F14F /* Toilets.swift */; };
+		17DEACAB1C16EDBF00B7F14F /* DataToilets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEACAA1C16EDBF00B7F14F /* DataToilets.swift */; };
+		17DEACAD1C17175800B7F14F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DEACAC1C17175800B7F14F /* TableViewController.swift */; };
+		5048CF269EC8347DF1F10F64 /* Pods_ToiletsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83993B0FCA23F077C51E167B /* Pods_ToiletsApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17DEAC8A1C16C86C00B7F14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DEAC6D1C16C86C00B7F14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DEAC741C16C86C00B7F14F;
+			remoteInfo = ToiletsApp;
+		};
+		17DEAC951C16C86C00B7F14F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17DEAC6D1C16C86C00B7F14F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17DEAC741C16C86C00B7F14F;
+			remoteInfo = ToiletsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17DEAC751C16C86C00B7F14F /* ToiletsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToiletsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DEAC781C16C86C00B7F14F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17DEAC7A1C16C86C00B7F14F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17DEAC7D1C16C86C00B7F14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17DEAC7F1C16C86C00B7F14F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17DEAC821C16C86C00B7F14F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DEAC841C16C86C00B7F14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DEAC891C16C86C00B7F14F /* ToiletsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DEAC8D1C16C86C00B7F14F /* ToiletsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletsAppTests.swift; sourceTree = "<group>"; };
+		17DEAC8F1C16C86C00B7F14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DEAC941C16C86C00B7F14F /* ToiletsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToiletsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DEAC981C16C86C00B7F14F /* ToiletsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToiletsAppUITests.swift; sourceTree = "<group>"; };
+		17DEAC9A1C16C86C00B7F14F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DEACA61C16CB1600B7F14F /* Toilets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toilets.swift; sourceTree = "<group>"; };
+		17DEACAA1C16EDBF00B7F14F /* DataToilets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataToilets.swift; sourceTree = "<group>"; };
+		17DEACAC1C17175800B7F14F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		83993B0FCA23F077C51E167B /* Pods_ToiletsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToiletsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9862FD653FDDA1E430486603 /* Pods-ToiletsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToiletsApp/Pods-ToiletsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C8C82F710DF73CA0CE5868F5 /* Pods-ToiletsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToiletsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToiletsApp/Pods-ToiletsApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DEAC721C16C86C00B7F14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048CF269EC8347DF1F10F64 /* Pods_ToiletsApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC861C16C86C00B7F14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC911C16C86C00B7F14F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17DEAC6C1C16C86C00B7F14F = {
+			isa = PBXGroup;
+			children = (
+				17DEAC771C16C86C00B7F14F /* ToiletsApp */,
+				17DEAC8C1C16C86C00B7F14F /* ToiletsAppTests */,
+				17DEAC971C16C86C00B7F14F /* ToiletsAppUITests */,
+				17DEAC761C16C86C00B7F14F /* Products */,
+				3284FCEE52AF8B35100CC492 /* Pods */,
+				41ABF2F4E3AB0139E337A511 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17DEAC761C16C86C00B7F14F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DEAC751C16C86C00B7F14F /* ToiletsApp.app */,
+				17DEAC891C16C86C00B7F14F /* ToiletsAppTests.xctest */,
+				17DEAC941C16C86C00B7F14F /* ToiletsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DEAC771C16C86C00B7F14F /* ToiletsApp */ = {
+			isa = PBXGroup;
+			children = (
+				17DEAC781C16C86C00B7F14F /* AppDelegate.swift */,
+				17DEAC7A1C16C86C00B7F14F /* ViewController.swift */,
+				17DEAC7C1C16C86C00B7F14F /* Main.storyboard */,
+				17DEAC7F1C16C86C00B7F14F /* Assets.xcassets */,
+				17DEAC811C16C86C00B7F14F /* LaunchScreen.storyboard */,
+				17DEAC841C16C86C00B7F14F /* Info.plist */,
+				17DEACA61C16CB1600B7F14F /* Toilets.swift */,
+				17DEACAA1C16EDBF00B7F14F /* DataToilets.swift */,
+				17DEACAC1C17175800B7F14F /* TableViewController.swift */,
+			);
+			path = ToiletsApp;
+			sourceTree = "<group>";
+		};
+		17DEAC8C1C16C86C00B7F14F /* ToiletsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				17DEAC8D1C16C86C00B7F14F /* ToiletsAppTests.swift */,
+				17DEAC8F1C16C86C00B7F14F /* Info.plist */,
+			);
+			path = ToiletsAppTests;
+			sourceTree = "<group>";
+		};
+		17DEAC971C16C86C00B7F14F /* ToiletsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17DEAC981C16C86C00B7F14F /* ToiletsAppUITests.swift */,
+				17DEAC9A1C16C86C00B7F14F /* Info.plist */,
+			);
+			path = ToiletsAppUITests;
+			sourceTree = "<group>";
+		};
+		3284FCEE52AF8B35100CC492 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9862FD653FDDA1E430486603 /* Pods-ToiletsApp.debug.xcconfig */,
+				C8C82F710DF73CA0CE5868F5 /* Pods-ToiletsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41ABF2F4E3AB0139E337A511 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83993B0FCA23F077C51E167B /* Pods_ToiletsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DEAC741C16C86C00B7F14F /* ToiletsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DEAC9D1C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsApp" */;
+			buildPhases = (
+				8C4142354C060F37AA6BF59F /* Check Pods Manifest.lock */,
+				17DEAC711C16C86C00B7F14F /* Sources */,
+				17DEAC721C16C86C00B7F14F /* Frameworks */,
+				17DEAC731C16C86C00B7F14F /* Resources */,
+				622A3643298EE84CEBEF595B /* Embed Pods Frameworks */,
+				88C2C190DDBEBFD03DCAB639 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToiletsApp;
+			productName = ToiletsApp;
+			productReference = 17DEAC751C16C86C00B7F14F /* ToiletsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17DEAC881C16C86C00B7F14F /* ToiletsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DEACA01C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsAppTests" */;
+			buildPhases = (
+				17DEAC851C16C86C00B7F14F /* Sources */,
+				17DEAC861C16C86C00B7F14F /* Frameworks */,
+				17DEAC871C16C86C00B7F14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DEAC8B1C16C86C00B7F14F /* PBXTargetDependency */,
+			);
+			name = ToiletsAppTests;
+			productName = ToiletsAppTests;
+			productReference = 17DEAC891C16C86C00B7F14F /* ToiletsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17DEAC931C16C86C00B7F14F /* ToiletsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DEACA31C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsAppUITests" */;
+			buildPhases = (
+				17DEAC901C16C86C00B7F14F /* Sources */,
+				17DEAC911C16C86C00B7F14F /* Frameworks */,
+				17DEAC921C16C86C00B7F14F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DEAC961C16C86C00B7F14F /* PBXTargetDependency */,
+			);
+			name = ToiletsAppUITests;
+			productName = ToiletsAppUITests;
+			productReference = 17DEAC941C16C86C00B7F14F /* ToiletsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DEAC6D1C16C86C00B7F14F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jordan DULLIER";
+				TargetAttributes = {
+					17DEAC741C16C86C00B7F14F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					17DEAC881C16C86C00B7F14F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 17DEAC741C16C86C00B7F14F;
+					};
+					17DEAC931C16C86C00B7F14F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 17DEAC741C16C86C00B7F14F;
+					};
+				};
+			};
+			buildConfigurationList = 17DEAC701C16C86C00B7F14F /* Build configuration list for PBXProject "ToiletsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DEAC6C1C16C86C00B7F14F;
+			productRefGroup = 17DEAC761C16C86C00B7F14F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DEAC741C16C86C00B7F14F /* ToiletsApp */,
+				17DEAC881C16C86C00B7F14F /* ToiletsAppTests */,
+				17DEAC931C16C86C00B7F14F /* ToiletsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DEAC731C16C86C00B7F14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DEAC831C16C86C00B7F14F /* LaunchScreen.storyboard in Resources */,
+				17DEAC801C16C86C00B7F14F /* Assets.xcassets in Resources */,
+				17DEAC7E1C16C86C00B7F14F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC871C16C86C00B7F14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC921C16C86C00B7F14F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		622A3643298EE84CEBEF595B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToiletsApp/Pods-ToiletsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88C2C190DDBEBFD03DCAB639 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToiletsApp/Pods-ToiletsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C4142354C060F37AA6BF59F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DEAC711C16C86C00B7F14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DEAC7B1C16C86C00B7F14F /* ViewController.swift in Sources */,
+				17DEAC791C16C86C00B7F14F /* AppDelegate.swift in Sources */,
+				17DEACAB1C16EDBF00B7F14F /* DataToilets.swift in Sources */,
+				17DEACAD1C17175800B7F14F /* TableViewController.swift in Sources */,
+				17DEACA71C16CB1600B7F14F /* Toilets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC851C16C86C00B7F14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DEAC8E1C16C86C00B7F14F /* ToiletsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17DEAC901C16C86C00B7F14F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DEAC991C16C86C00B7F14F /* ToiletsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17DEAC8B1C16C86C00B7F14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DEAC741C16C86C00B7F14F /* ToiletsApp */;
+			targetProxy = 17DEAC8A1C16C86C00B7F14F /* PBXContainerItemProxy */;
+		};
+		17DEAC961C16C86C00B7F14F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17DEAC741C16C86C00B7F14F /* ToiletsApp */;
+			targetProxy = 17DEAC951C16C86C00B7F14F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17DEAC7C1C16C86C00B7F14F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DEAC7D1C16C86C00B7F14F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17DEAC811C16C86C00B7F14F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DEAC821C16C86C00B7F14F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DEAC9B1C16C86C00B7F14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17DEAC9C1C16C86C00B7F14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DEAC9E1C16C86C00B7F14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9862FD653FDDA1E430486603 /* Pods-ToiletsApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToiletsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17DEAC9F1C16C86C00B7F14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C82F710DF73CA0CE5868F5 /* Pods-ToiletsApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToiletsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17DEACA11C16C86C00B7F14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToiletsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletsApp.app/ToiletsApp";
+			};
+			name = Debug;
+		};
+		17DEACA21C16C86C00B7F14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToiletsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToiletsApp.app/ToiletsApp";
+			};
+			name = Release;
+		};
+		17DEACA41C16C86C00B7F14F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToiletsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToiletsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		17DEACA51C16C86C00B7F14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToiletsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = insset.ToiletsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToiletsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DEAC701C16C86C00B7F14F /* Build configuration list for PBXProject "ToiletsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DEAC9B1C16C86C00B7F14F /* Debug */,
+				17DEAC9C1C16C86C00B7F14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DEAC9D1C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DEAC9E1C16C86C00B7F14F /* Debug */,
+				17DEAC9F1C16C86C00B7F14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DEACA01C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DEACA11C16C86C00B7F14F /* Debug */,
+				17DEACA21C16C86C00B7F14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DEACA31C16C86C00B7F14F /* Build configuration list for PBXNativeTarget "ToiletsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DEACA41C16C86C00B7F14F /* Debug */,
+				17DEACA51C16C86C00B7F14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DEAC6D1C16C86C00B7F14F /* Project object */;
+}
