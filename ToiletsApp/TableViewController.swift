@@ -26,7 +26,7 @@ class TableViewController : UITableViewController, DataProtocol{
     }
     
     func didRetrieveData(toilets: [Toilets]) {
-        
+        tableView.reloadData()
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
